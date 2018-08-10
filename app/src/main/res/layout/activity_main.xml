@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#2d2c2d"
+    tools:context="com.lovecode666.androidinfo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/root_v1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"     android:textColor="@android:color/white"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/root_v2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textColor="@android:color/white"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/root_v3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"     android:textColor="@android:color/white"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="186dp"
+            android:layout_marginTop="12dp"
+            android:background="@null"
+            android:textColor="#00f"
+            android:layout_height="42dp"
+            android:text="@string/author"/>
+    </LinearLayout>
+
+
+</LinearLayout>
